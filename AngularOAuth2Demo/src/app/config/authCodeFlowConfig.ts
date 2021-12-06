@@ -9,6 +9,6 @@ export const authCodeFlowConfig: AuthConfig = {
   redirectUri: window.location.origin,
   clientId: "<Your Client Id>",
   responseType: "code",
-  scope: "openid profile email",
+  scope: "openid profile email authors",
   showDebugInformation: true
 };
