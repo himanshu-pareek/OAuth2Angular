@@ -1,0 +1,5 @@
+#!/bin/sh
+cd $(dirname $0)
+PATH="$PWD/node/":"$PWD":$PATH
+echo $PATH
+node_modules/@angular/cli/bin/ng.js "$@"
